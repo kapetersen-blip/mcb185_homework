@@ -78,3 +78,36 @@ print("Triangle area 3x4:", triangle_area(3,4))
 print("100 F in C:", f_to_c(100))
 print("Distance between (0,0) and (3,4):", distance(0,0,3,4))
 
+s = 'hello world'
+print(s, type(s))
+
+a = 2
+b = 2
+if a == b:
+	print('a equals b')
+print (a, b)
+
+def is_even(x):
+	if x % 2 == 0: return True
+	return False
+
+print(is_even(2))
+print(is_even(3))
+
+c = a == b
+print(c)
+print(type(c))
+
+if a < b:
+	print('a < b')
+elif a > b:
+	print('a > b')
+else:
+	print('a == b')
+if   a < b: print('a < b')
+elif a > b: print('a > b')
+else:       print('a == b')
+
+if   a < b:  print('a < b')
+elif a <= b: print('a <= b')
+elif a == b: print('this will never print!')
