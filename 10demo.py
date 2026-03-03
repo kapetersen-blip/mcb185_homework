@@ -111,3 +111,7 @@ else:       print('a == b')
 if   a < b:  print('a < b')
 elif a <= b: print('a <= b')
 elif a == b: print('this will never print!')
+
+import sys
+print(sys.argv)
+
